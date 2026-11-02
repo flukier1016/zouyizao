@@ -9,7 +9,7 @@
 **投胎、读书、高考、工作、恋爱、变老，一年一回合，每一世都不一样。**
 
 [![在线玩](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E7%8E%A9-zouyizao.com-b5321e?style=flat-square)](https://zouyizao.com)
-[![版本](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-7.2-1e1c19?style=flat-square)](https://zouyizao.com/changelog.html)
+[![版本](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-7.2.2-1e1c19?style=flat-square)](https://zouyizao.com/changelog.html)
 [![免费](https://img.shields.io/badge/%E4%BB%B7%E6%A0%BC-%E5%85%8D%E8%B4%B9-8c6a1c?style=flat-square)](https://zouyizao.com)
 [![手机和电脑都能玩](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-%E6%89%8B%E6%9C%BA%20%7C%20%E7%94%B5%E8%84%91-27303b?style=flat-square)](https://zouyizao.com)
 
@@ -180,6 +180,9 @@
 - 结局页和人生卡片重做：结局页像一篇行状，人生卡片换成能直接分享的竖版图，宣纸和墨夜两套。
 - 手机版按手游的样子重排：拇指够得着的“下一年”，两列活动签卡，面板从底下升起。
 - 托管时写出“这一年托管替你做了什么”；投胎时姓和名分开填；几百个事件补上前因后果。
+
+**7.2.2：有了背景音乐**
+首页、少年、中年、晚年和结局各有一首古风配乐，按年纪自动换；网站多了职业大全、城市图鉴、专业与高考、年代、人生故事几页；广告只在结局页出现。
 
 **7.2：换了一身水墨**
 - 首页成了一幅竖轴山水配一页人生相册；游戏里像翻一本宣纸册页，日间宣纸、夜间墨夜。
