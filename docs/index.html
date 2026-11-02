@@ -179,7 +179,10 @@ section.block { position: relative; padding: 76px 0 8px; }
 .frame { border: 1px solid var(--hair2); outline: 1px solid var(--hair); outline-offset: 4px; margin: 5px; padding: 10px; background: var(--sheet); }
 
 /* 宣传片 */
-.film video { width: 100%; aspect-ratio: 16 / 10; background: #0d0f12; }
+.film video { width: 100%; background: #0d0f12; }
+.film .film-h { aspect-ratio: 16 / 9; }
+.film .film-v { display: none; aspect-ratio: 9 / 16; max-width: 420px; margin: 0 auto; }
+@media (max-width: 640px) and (orientation: portrait) { .film .film-h { display: none; } .film .film-v { display: block; } }
 .film figcaption { margin-top: 10px; font-size: 14px; color: var(--dim); text-align: center; }
 
 /* 玩法卡片 */
@@ -310,14 +313,18 @@ dialog.lb button { position: fixed; right: 16px; top: 16px; width: 42px; height:
   <section class="block" id="film" aria-labelledby="h-film">
     <div class="wrap">
       <h2 class="sec-h" id="h-film">一局人生</h2>
-      <p class="sec-p">从投胎、出生动画到一年一年往下过，最后落在一页结局。十秒看个大概。</p>
+      <p class="sec-p">三十秒，走完一个人的一生：投胎、出生、读书、结婚、生子、退休，最后落在一页行状。开声音听听配乐。</p>
       <figure class="frame film" style="margin-bottom:0">
-        <!-- 宣传片位：30 秒成片放进 assets/promo.mp4 后，把下面 source 的 src 换成 assets/promo.mp4，poster 换成成片封面 -->
-        <video controls muted playsinline loop preload="metadata" poster="assets/demo-poster.jpg" width="1280" height="800">
-          <source src="assets/demo.mp4" type="video/mp4">
+        <!-- 宣传片：宽屏放横版，手机竖屏放竖版；没显示的那个不预载 -->
+        <video class="film-h" controls playsinline preload="metadata" poster="assets/promo-h-poster.jpg" width="1280" height="720">
+          <source src="assets/promo-h.mp4" type="video/mp4">
           你的浏览器放不了视频，可以直接去 <a href="https://zouyizao.com">zouyizao.com</a> 玩一局。
         </video>
-        <figcaption>实机录屏：首页、投胎三选一、开场动画、头几年的事件，到结局页。</figcaption>
+        <video class="film-v" controls playsinline preload="none" poster="assets/promo-v-poster.jpg" width="720" height="1280">
+          <source src="assets/promo-v.mp4" type="video/mp4">
+          你的浏览器放不了视频，可以直接去 <a href="https://zouyizao.com">zouyizao.com</a> 玩一局。
+        </video>
+        <figcaption>30 秒宣传片，全部是游戏实录。</figcaption>
       </figure>
     </div>
   </section>

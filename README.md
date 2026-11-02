@@ -27,7 +27,7 @@
 </picture>
 
 <p align="center"><img src="docs/assets/demo.gif" width="720" alt="一局人生：首页、投胎三选一、开场动画、头几年的事件，到结局页"></p>
-<p align="center"><sub>实机录屏，十秒走一遭：投胎、开场动画、一年一年往下过、结局页。<a href="docs/assets/demo.mp4">看清晰版 mp4</a></sub></p>
+<p align="center"><sub>实机录屏，十秒走一遭：投胎、开场动画、一年一年往下过、结局页。<a href="docs/assets/demo.mp4">看清晰版 mp4</a> · <a href="https://flukier1016.github.io/zouyizao/#film">看 30 秒宣传片（带配乐）</a></sub></p>
 
 ## 玩法
 
@@ -176,7 +176,7 @@
 
 完整的更新日志在 [zouyizao.com/changelog.html](https://zouyizao.com/changelog.html)。
 
-**7.2.1（即将上线）**
+**7.2.1**
 - 结局页和人生卡片重做：结局页像一篇行状，人生卡片换成能直接分享的竖版图，宣纸和墨夜两套。
 - 手机版按手游的样子重排：拇指够得着的“下一年”，两列活动签卡，面板从底下升起。
 - 托管时写出“这一年托管替你做了什么”；投胎时姓和名分开填；几百个事件补上前因后果。
